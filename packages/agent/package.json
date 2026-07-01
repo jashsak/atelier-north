@@ -1,0 +1,20 @@
+{
+  "name": "@me/agent",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@me/engine": "workspace:*",
+    "ai": "^4.0.30",
+    "@ai-sdk/google": "^1.0.17",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/node": "^22.10.0"
+  }
+}
