@@ -6,7 +6,6 @@ You ask in plain language. It weighs every constraint at once — fitness, fire,
 
 > The original take-home brief is preserved at [`docs/brief.md`](docs/brief.md).
 
-![Hotel lobby — gates, evidence, provenance, and the twin warning](docs/images/hotel-lobby.png)
 
 ## Run it (from a clean clone, no API key required)
 
@@ -36,9 +35,7 @@ pnpm test           # the engine's behaviour contract
 | *Poolside cabana?* | A **qualified** match: the 6 genuinely indoor/outdoor textiles, with the honest caveat that the library records no wet/UV/chlorine spec — confirm with the maker. |
 | *A deep green that feels like quiet luxury* | Matches colour on the **swatch, not the label** (the `color_family` labels are unreliable), names its interpretation of "quiet luxury", and returns real deep greens led by Fennwen. |
 
-And the honesty moment, on a query a designer would actually type:
 
-![No velvets](docs/images/no-velvet.png)
 
 ## What's in the box
 
