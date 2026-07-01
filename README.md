@@ -6,6 +6,7 @@ You ask in plain language. It weighs every constraint at once — fitness, fire,
 
 > The original take-home brief is preserved at [`docs/brief.md`](docs/brief.md).
 
+**Live demo: [atelier-north.vercel.app](https://atelier-north.vercel.app)** — the LLM narration is live, no key needed on your end.
 
 ## Run it (from a clean clone, no API key required)
 
