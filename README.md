@@ -2,7 +2,7 @@
 
 A trustworthy **second opinion** for specifying upholstery, over Atelier North's library of 147 textiles.
 
-You ask in plain language. It holds every constraint at once — fitness, fire, durability, lead time, price, colour — grounds every claim in the data, shows its confidence, warns you about confusable near-twins, and is **honest when the evidence is thin, missing, or self-contradicting**. It would rather tell you *"the library holds no velvets"* than confidently hand you the wrong thing.
+You ask in plain language. It weighs every constraint at once — fitness, fire, durability, lead time, price, colour — backs every claim with real data, shows how confident it is, warns you about near-identical twins, and is **honest when the evidence is thin, missing, or contradicts itself**. It would rather tell you *"the library holds no velvets"* than confidently hand you the wrong thing.
 
 > The original take-home brief is preserved at [`docs/brief.md`](docs/brief.md).
 
@@ -43,9 +43,9 @@ And the honesty moment, on a query a designer would actually type:
 ## What's in the box
 
 ```
-packages/engine   # deterministic, typed, unit-tested — the moat (no UI, no LLM)
-packages/agent    # the optional LLM intelligence layer (grounded, key-gated)
-apps/web          # the Next.js surface — swatch-forward, progressive disclosure
+packages/engine   # the deterministic core — typed, unit-tested, no UI, no LLM
+packages/agent    # the optional LLM layer (grounded, only runs with a key)
+apps/web          # the Next.js app — swatch-forward, progressive disclosure
 data/             # the provided corpus (147 textiles + ~500 swatch images)
 docs/             # architecture memo · product & eval note · AI-usage note · vision · design
 ```
@@ -59,4 +59,4 @@ Type system: **Gilda Display** (the editorial soul, used sparingly) + **Inter** 
 - [`docs/ai-usage.md`](docs/ai-usage.md) — what AI did, where it steered wrong, and the decisions I made myself.
 - [`docs/vision.md`](docs/vision.md) · [`docs/design-context.md`](docs/design-context.md) — the north star and the design system (kept so the tools build to intent, not guesswork).
 
-*Time spent: roughly a focused day — the deterministic engine + the four documents are the ~3-hour core; the web surface and the agent layer are the sanctioned "going further". The cut-line is in the architecture memo.*
+*Time spent: roughly a focused day. The engine and the four documents are the honest ~3-hour core; the web app and the LLM layer are the deliberate "going further" — see the architecture memo for what I cut and why.*

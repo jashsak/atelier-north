@@ -2,36 +2,36 @@
 
 ## What this is
 
-**Material Evidence** is a trustworthy second opinion for specifying upholstery, over Atelier North's private library of 147 textiles. A designer asks in plain language; the tool holds every constraint at once, grounds every claim in the data, shows how confident it is, and is honest when the evidence is thin, missing, or self-contradicting.
+**Material Evidence** is a trustworthy second opinion for specifying upholstery, drawn from Atelier North's private library of 147 textiles. A designer asks a question in plain language. The tool weighs every constraint at once, backs every claim with real data, shows how sure it is, and says so honestly when the evidence is thin, missing, or contradicts itself.
 
 ## Why it exists
 
-A specifier choosing fabric for a real project is making a decision with consequences — a textile that fails inspection, wears out in a year, or arrives after the install date. Their existing options don't help with the *judgement*: a manufacturer's rep is biased to one line; a sampling platform has breadth but no opinion and will let them spec something unsuitable. The gap is a colleague who never forgets a fire rating, weighs all the constraints together, and tells the truth — including "nothing here fits." This tool is that colleague.
+Choosing fabric for a real project is a decision with consequences — a material that fails inspection, wears out fast, or arrives late. The usual options don't help with judgement: a manufacturer's rep is biased toward what they sell, and a sampling platform has plenty of choice but no opinion, and won't stop you speccing something unsuitable. What's missing is a colleague who never forgets a fire rating, weighs every constraint together, and is willing to say "nothing here fits." That's what this tool is for.
 
 ## Who it's for
 
-Senior interior designers and FF&E specifiers working on hospitality and high-end residential projects. They think in use-cases and looks; they defend their choices in numbers. The tool meets them in their language and keeps the spec as evidence underneath.
+Senior interior designers and FF&E specifiers on hospitality and high-end residential projects. They think in situations and looks, but defend their choices in numbers. The tool speaks their language up front and keeps the spec as backup underneath.
 
-## The principle that governs every decision
+## The one rule behind every decision
 
-**Trustworthy under doubt.** The product is judged not on how confidently it answers the easy questions but on how it behaves when the evidence is thin or lying. It would rather abstain, qualify, or surface a conflict than hand over a confident wrong answer. Concretely: a deterministic engine owns every decision and number; the LLM interprets and explains but never invents a fact; the interface makes both the recommendation *and* the doubt legible.
+**Be trustworthy when the answer isn't clean.** The real test isn't the easy questions — it's what happens when the evidence is thin or wrong. The tool would rather abstain, qualify, or flag a conflict than hand over a confident wrong answer. In practice: a fixed set of rules decides every fact and every number; the LLM explains but never invents; and both the recommendation and the doubt behind it are visible.
 
 ## What good looks like
 
-- A designer types a vague brief and gets three defensible options, each showing the one spec that earned it and the honest trade-off.
-- When two textiles are dangerously confusable (one contract-grade, one residential), the tool warns before the wrong one is specified.
-- When the library can't answer ("no velvets here"), the tool says so and offers the closest in hand — and the designer trusts it *more* for the refusal.
-- The whole thing runs from a clean clone, and feels calm: the material is the hero, evidence is a tap away, and an alarm colour means something because it's rare.
+- A vague brief gets three real options, each showing the one spec that earned it and the honest trade-off.
+- When two textiles look identical but aren't (one contract-grade, one residential), the tool warns before the wrong one gets specified.
+- When the library genuinely can't help ("no velvet here"), it says so and offers the closest alternative — and that honesty is what makes it trustworthy the next time.
+- It runs from a clean clone. The material itself is the focus; the rest is one tap away; a warning colour is rare enough to mean something when it shows up.
 
-## Non-goals (what we are deliberately NOT building)
+## What this deliberately isn't
 
-- **Not a chatbot.** No open-ended conversation for its own sake; the output is an evidence workspace, not a chat log.
-- **Not a sampling/procurement platform.** No ordering, carts, logistics, or per-project boards/export. It informs the decision; it doesn't fulfil it.
-- **Not a search index at scale.** No embeddings or vector infrastructure — the corpus is 147 rows; the value is enriched data and judgement, not retrieval plumbing.
-- **Not a colour-science showpiece.** Image colour is used to *catch label-vs-swatch conflicts*, not to claim pixel-perfect truth from photographs.
-- **Not a system that pretends to know.** It will not invent cleaning codes, roll widths, or jurisdiction-specific compliance the library doesn't record; it names those gaps.
-- **Not dependent on the LLM.** The model improves the prose; it is never load-bearing for facts, safety, or the demo.
+- **Not a chatbot.** No open-ended conversation — the output is a set of answers with evidence, not a chat log.
+- **Not a sales or procurement tool.** No ordering, carts, or project boards. It helps you decide; it doesn't handle the transaction.
+- **Not a search engine at scale.** No vector database — 147 rows don't need one. The value is in the enriched data and the judgement, not retrieval infrastructure.
+- **Not a colour-science demo.** Image colour is used to catch disagreements with the label, not to claim it can read "true" colour from a photo.
+- **Not something that guesses when it doesn't know.** It won't invent a cleaning code or a fire-compliance detail the library doesn't record — it says the gap is there.
+- **Not dependent on the LLM.** The model improves the wording. It never decides a fact, and the app works without it.
 
 ## The one-line test
 
-When in doubt, choose the option that makes the tool *more honest about what it knows* — even at the cost of looking less impressive on the happy path. That honesty is the entire product.
+When in doubt, pick whichever option makes the tool more honest about what it actually knows — even if that's less impressive on the easy path. That honesty is the product.
